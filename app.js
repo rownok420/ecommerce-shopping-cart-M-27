@@ -25,8 +25,8 @@ function getInputValue(product){
 }
 
 function calculateTotal(){
-    const phoneTotal = getInputValue('phone') * 1219;
-    const caseTotal = getInputValue('case') * 59;
+    const phoneTotal = getInputValue('phone') * 1200;
+    const caseTotal = getInputValue('case') * 60;
     const subTotal = phoneTotal + caseTotal;
     const tax = subTotal / 10 ;
     const totalPrice = subTotal + tax;

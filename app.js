@@ -38,20 +38,20 @@ function calculateTotal(){
 
 // handle phone increase decrease events
 document.getElementById('phone-plus').addEventListener('click',function(){
-    updateProductNumber('phone',1219,true)
+    updateProductNumber('phone',1200,true)
    
 });
 document.getElementById('phone-minus').addEventListener('click',function(){
-    updateProductNumber('phone',1219,false)
+    updateProductNumber('phone',1200,false)
     
 });
 
 // handle case increase decrease events
 document.getElementById('case-plus').addEventListener('click',function(){
-    updateProductNumber('case',59,true)
+    updateProductNumber('case',60,true)
     
 });
 document.getElementById('case-minus').addEventListener('click',function(){
-    updateProductNumber('case',59,false)
+    updateProductNumber('case',60,false)
     
 });
